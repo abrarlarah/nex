@@ -19,7 +19,7 @@ const Carousel = () => {
           <button className="hero-button">Register</button>
         </>
       ),
-      image: "/images/logo1.png",
+       image: "https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/139651/curvv-exterior-right-front-three-quarter.jpeg?isig=0&q=80",
     },
     {
       content: <h1>Learn And Progress   <span className="green-text">More</span></h1>,
