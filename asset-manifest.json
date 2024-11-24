@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/abrarlarah/nex.git/static/css/main.525c21c4.css",
-    "main.js": "/abrarlarah/nex.git/static/js/main.b496f2a7.js",
-    "static/js/453.5aa6a120.chunk.js": "/abrarlarah/nex.git/static/js/453.5aa6a120.chunk.js",
-    "index.html": "/abrarlarah/nex.git/index.html",
-    "main.525c21c4.css.map": "/abrarlarah/nex.git/static/css/main.525c21c4.css.map",
-    "main.b496f2a7.js.map": "/abrarlarah/nex.git/static/js/main.b496f2a7.js.map",
-    "453.5aa6a120.chunk.js.map": "/abrarlarah/nex.git/static/js/453.5aa6a120.chunk.js.map"
+    "main.css": "/nex/static/css/main.525c21c4.css",
+    "main.js": "/nex/static/js/main.e690f1fc.js",
+    "static/js/453.5aa6a120.chunk.js": "/nex/static/js/453.5aa6a120.chunk.js",
+    "index.html": "/nex/index.html",
+    "main.525c21c4.css.map": "/nex/static/css/main.525c21c4.css.map",
+    "main.e690f1fc.js.map": "/nex/static/js/main.e690f1fc.js.map",
+    "453.5aa6a120.chunk.js.map": "/nex/static/js/453.5aa6a120.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.525c21c4.css",
-    "static/js/main.b496f2a7.js"
+    "static/js/main.e690f1fc.js"
   ]
 }
