@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
 
+
 const Carousel = () => {
   const [activePage, setActivePage] = useState(0);
 
@@ -23,11 +24,11 @@ const Carousel = () => {
     },
     {
       content: <h1>Learn And Progress   <span className="green-text">More</span></h1>,
-      image: "/images/logo3.png",
+      image: `${process.env.PUBLIC_URL}/images/logo3.png`,
     },
     {
       content: <h1>Achieve and Work <span className="green-text">More</span> </h1>,
-      image: "/images/logo4.png",
+      image:"/images/logo4.png",
     },
   ];
 
