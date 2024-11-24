@@ -14,7 +14,7 @@ const Carousel = () => {
     {
       content: (
         <>
-          <h1>Lessonss aand insightsss <br /><span className="green-text">from 8 years</span></h1>
+          <h1>Lessons and insights <br /><span className="green-text">from 8 years</span></h1>
           <p className="left-aligned-text">Where to grow your business as a photographer: site or social media?</p>
           <button className="hero-button">Register</button>
         </>
