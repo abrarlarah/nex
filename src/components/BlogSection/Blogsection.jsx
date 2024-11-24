@@ -19,11 +19,8 @@ const Card = () => {
         {/* First Card */}
         <div className="card-container">
           <div className="image-wrapper">
-            <img
-              src="/images/logo30.png"
-              alt="Person working on a laptop"
-              className="card-image"
-            />
+           
+          <img src={`${process.env.PUBLIC_URL}/images/logo30.png`} alt="Person working on a laptop"className="card-image" />
           </div>
           <div className="card-overlay">
             <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
@@ -36,11 +33,10 @@ const Card = () => {
         {/* Second Card */}
         <div className="card-container">
           <div className="image-wrapper">
-            <img
-              src="/images/logo31.png"
-              alt="Person working on a laptop"
-              className="card-image"
-            />
+
+          <img src={`${process.env.PUBLIC_URL}/images/logo31.png`} alt="Person working on a laptop"className="card-image" />
+
+           
           </div>
           <div className="card-overlay">
             <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
@@ -53,11 +49,9 @@ const Card = () => {
         {/* Third Card */}
         <div className="card-container">
           <div className="image-wrapper">
-            <img
-              src="/images/logo32.png"
-              alt="Person working on a laptop"
-              className="card-image"
-            />
+            
+          <img src={`${process.env.PUBLIC_URL}/images/logo32.png`} alt="Person working on a laptop"className="card-image" />
+           
           </div>
           <div className="card-overlay">
             <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>

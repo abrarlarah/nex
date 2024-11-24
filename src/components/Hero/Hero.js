@@ -20,7 +20,7 @@ const Carousel = () => {
           <button className="hero-button">Register</button>
         </>
       ),
-      image: "https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/139651/curvv-exterior-right-front-three-quarter.jpeg?isig=0&q=80",
+      image: `${process.env.PUBLIC_URL}/images/logo1.png`,
     },
     {
       content: <h1>Learn And Progress   <span className="green-text">More</span></h1>,
@@ -28,7 +28,7 @@ const Carousel = () => {
     },
     {
       content: <h1>Achieve and Work <span className="green-text">More</span> </h1>,
-      image:"/images/logo4.png",
+      image: `${process.env.PUBLIC_URL}/images/logo4.png`,
     },
   ];
 

@@ -8,7 +8,10 @@ const Header = () => {
 
     <header className="header">
     <div className="logo">
-      <img src="/images/logo.png" alt="Logo" className="logo-image" />
+    
+     
+      <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="Logo"  className="logo-image"/>
+
       <strong>Nexcent</strong>
     </div>
   

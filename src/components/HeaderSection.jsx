@@ -6,7 +6,8 @@ const HeaderSection = () => {
   return (
     <div className="header-section" id="blogss">
       <div className="logo-section">
-        <img src="/images/logo23.png" alt="Tesla Logo" className="tesla-logo" />
+      <img src={`${process.env.PUBLIC_URL}/images/logo23.png`} alt="Tesla Logo" className="tesla-logo" />
+       
       </div>
      <div className="content-section">
         <p>
@@ -20,12 +21,21 @@ const HeaderSection = () => {
         <p className="association">British Dragon Boat Racing Association</p>
       
        <div className="icons-section">
+       <img src={`${process.env.PUBLIC_URL}/images/logo24.png`} alt="Icon 1" className="icon" />
+       <img src={`${process.env.PUBLIC_URL}/images/logo25.png`} alt="Icon 1" className="icon" />
+       <img src={`${process.env.PUBLIC_URL}/images/logo26.png`} alt="Icon 1" className="icon" />
+       <img src={`${process.env.PUBLIC_URL}/images/logo27.png`} alt="Icon 1" className="icon" />
+       <img src={`${process.env.PUBLIC_URL}/images/logo28.png`} alt="Icon 1" className="icon" />
+       <img src={`${process.env.PUBLIC_URL}/images/logo29.png`} alt="Icon 1" className="icon" />
+
+
+{/* 
         <img src="/images/logo24.png" alt="Icon 1" className="icon" />
         <img src="/images/logo25.png" alt="Icon 1" className="icon" />
         <img src="/images/logo26.png" alt="Icon 1" className="icon" />
         <img src="/images/logo27.png" alt="Icon 1" className="icon" />
         <img src="/images/logo28.png" alt="Icon 1" className="icon" />
-        <img src="/images/logo29.png" alt="Icon 1" className="icon" />
+        <img src="/images/logo29.png" alt="Icon 1" className="icon" /> */}
        
         <a href="#" className="customer-link">
           Meet all customers →
